@@ -78,7 +78,7 @@ I use [Docker](https://www.docker.com/) to instantiate it.
 
 For this demo, I decided to create an application that... 
 
-- School Management? 
+- School Management? (Administrators, Teacher, Parent, Student, Classes, Subjects, Lesson, Exam, Assignment, Result, Event, Announcement)
 - Travel App? 
 - E-Commerce? 
 - Food ordering? 
