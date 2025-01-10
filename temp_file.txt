@@ -1,0 +1,69 @@
+// schema.prisma
+model User {
+  id       Int      @id @default(autoincrement())
+  name     String
+  email    String   @unique
+  posts    Post[]
+}
+
+model Post {
+  id        Int      @id @default(autoincrement())
+  title     String
+  content   String?
+  published Boolean  @default(false)
+  author    User     @relation(fields: [authorId], references: [id])
+  authorId  Int
+}
+
+model Comment {
+  id      Int      @id @default(autoincrement())
+  content String
+  post    Post     @relation(fields: [postId], references: [id])
+  postId  Int
+}
+
+> prisma generate
+
+// generate-types.ts
+import fs from 'fs';
+import path from 'path';
+import { User, Post, Comment } from '@prisma/client';
+
+// Define the types you want to export
+const types = `
+export type User = ${JSON.stringify(User, null, 2)};
+export type Post = ${JSON.stringify(Post, null, 2)};
+export type Comment = ${JSON.stringify(Comment, null, 2)};
+`;
+
+// Write to a file
+const outputPath = path.join(__dirname, 'shared-entities.ts');
+fs.writeFileSync(outputPath, types);
+
+console.log(`Entity types exported to ${outputPath}`);
+
+> ts-execute generate-types.ts
+
+will gives:
+
+// shared-entities.ts
+export type User = {
+  id: number;
+  name: string;
+  email: string;
+};
+
+export type Post = {
+  id: number;
+  title: string;
+  content: string | null;
+  published: boolean;
+  authorId: number;
+};
+
+export type Comment = {
+  id: number;
+  content: string;
+  postId: number;
+};
+
