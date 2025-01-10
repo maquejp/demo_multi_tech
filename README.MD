@@ -34,7 +34,7 @@ For the backend it will use APIs, it covers a set of technologies / frameworks:
 For [Spring Boot](https://spring.io/projects/spring-boot) and [API Platform](https://api-platform.com/), I will use [Docker](https://www.docker.com/)
 
 
-### Database (SQL)
+### Database
 
 For the database, it covers a set of technologies:
 
@@ -45,14 +45,6 @@ For the database, it covers a set of technologies:
 And I will also use [Docker](https://www.docker.com/) to instantiate those database.
 
 The Oracle Container Registry for 21c XE is [here](https://container-registry.oracle.com/ords/f?p=113:4:111314654707551:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:803,803,Oracle%20Database%20Express%20Edition,Oracle%20Database%20Express%20Edition,1,0&cs=3ghtGX3zCDDLftv0TVGFjgU_UvhjtPwEr9xdYRMocvClE-2b7EohwfIotmOlo0WjkQxkt9T9IZZ9oY5cDlZHV2w)
-
-### Database (noSQL)
-
-- [MongoDB Community](https://www.mongodb.com/)
-
-I will use [Docker](https://www.docker.com/) to instantiate it. 
-
-[Using docker](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/)
 
 ### SMTP Server
 
@@ -69,9 +61,17 @@ I will use [Docker](https://www.docker.com/) to instantiate it.
 
 For this demo, I decided to create an application that... 
 
-School Management? 
-Travel App? 
-E-Commerce? 
-Food ordering? 
-Doctor Appointment? 
-House Rental Management?
+- School Management? 
+- Travel App? 
+- E-Commerce? 
+- Food ordering? 
+- Doctor Appointment? 
+- House Rental Management?
+
+### Features
+
+The applicaton has the following features:
+
+- Public Homepage
+- Authentication for restricted features
+- Role base restriction (admin, role[n])
