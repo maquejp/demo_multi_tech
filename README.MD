@@ -11,15 +11,28 @@ I have started this project in January 2025... And it will takes time to covers 
 For the frontend, it covers as set of javascript frameworks for [Single-page application](https://en.wikipedia.org/wiki/Single-page_application):
 
 - [Angular](https://angular.dev/)
-- [NextJS](https://nextjs.org/)
+- [NextJs](https://nextjs.org/)
 - [React](https://react.dev/)
 - [Svelte](https://svelte.dev/)
-- [VueJs](https://vuejs.org/)
+- [VueJs](https://vuejs.org/) 
 - [Astro](https://astro.build/)
+
+It use [Vite](https://vite.dev/) to instanciate [VueJs](https://vuejs.org/), [React](https://react.dev/) and [Svelte](https://svelte.dev/)
 
 #### Styling
 
 It is using [Tailwindcss](https://tailwindcss.com/)
+
+[The Frameworks guide](https://tailwindcss.com/docs/installation/framework-guides)
+
+- [With Angular](https://tailwindcss.com/docs/guides/angular)
+- [With React](https://tailwindcss.com/docs/guides/create-react-app)
+- [With NextJs](https://tailwindcss.com/docs/guides/nextjs)
+- [With Svelte](https://tailwindcss.com/docs/guides/sveltekit)
+- [With VueJs](https://v2.tailwindcss.com/docs/guides/vue-3-vite)
+- [With Astro](https://tailwindcss.com/docs/guides/astro)
+
+[With Vite](https://tailwindcss.com/docs/guides/vite#vue)
 
 #### Mobile
 
