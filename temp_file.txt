@@ -1,3 +1,7 @@
+Inspiration:
+School management : https://github.com/safak/full-stack-school/blob/main/prisma/schema.prisma
+
+
 // schema.prisma
 model User {
   id       Int      @id @default(autoincrement())
