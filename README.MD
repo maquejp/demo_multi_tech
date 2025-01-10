@@ -78,8 +78,8 @@ I use [Docker](https://www.docker.com/) to instantiate it.
 
 For this demo, I decided to create an application that... 
 
-- School Management? (Administrators, Teacher, Parent, Student, Classes, Subjects, Lesson, Exam, Assignment, Result, Event, Announcement)
-- Travel App? 
+- School Management? (Administrators, Teacher, Parent, Student, Classes[[Grade]A..[Grade]Z], Grades[1st-nth], Subjects, Lesson, Exam, Assignment, Result, Event, Announcement, Messages, Attendance)
+- Travel App?
 - E-Commerce? 
 - Food ordering? 
 - Doctor Appointment? 
@@ -92,3 +92,7 @@ The applicaton has the following features:
 - Public Homepage
 - Authentication for restricted features
 - Role base restriction (admin, role[n])
+- Dashboard per role (?)
+- CRUD on specific features
+- Data Exports
+- Internal Messaging System
