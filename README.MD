@@ -2,7 +2,7 @@
 
 The goal of this project is to displays multiples ways to build the same application using different technologies.
 
-I have started this project in January 2025... And it will takes time to covers everyhing 😄 😄
+I have started this project in January 2025... And it will takes time to covers everything 😄 😄
 
 ## Technologies
 
