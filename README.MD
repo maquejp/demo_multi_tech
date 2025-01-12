@@ -21,7 +21,7 @@ For the frontend, it covers as set of javascript frameworks for [Single-page app
 
 It use [Vite](https://vite.dev/) to instanciate [VueJs](https://vuejs.org/), [React](https://react.dev/) and [Svelte](https://svelte.dev/)
 
-##### Styling for SPAs
+##### Styling for Frontend Web
 
 It is using [Tailwindcss](https://tailwindcss.com/)
 
