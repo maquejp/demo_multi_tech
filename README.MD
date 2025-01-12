@@ -6,7 +6,9 @@ I have started this project in January 2025... And it will takes time to covers 
 
 ## Technologies
 
-### Frontend
+### UIs
+
+#### Frontend Web
 
 For the frontend, it covers as set of javascript frameworks for [Single-page application](https://en.wikipedia.org/wiki/Single-page_application):
 
@@ -14,12 +16,12 @@ For the frontend, it covers as set of javascript frameworks for [Single-page app
 - [NextJs](https://nextjs.org/)
 - [React](https://react.dev/)
 - [Svelte](https://svelte.dev/)
-- [VueJs](https://vuejs.org/) 
+- [VueJs](https://vuejs.org/)
 - [Astro](https://astro.build/)
 
 It use [Vite](https://vite.dev/) to instanciate [VueJs](https://vuejs.org/), [React](https://react.dev/) and [Svelte](https://svelte.dev/)
 
-#### Styling
+##### Styling for SPAs
 
 It is using [Tailwindcss](https://tailwindcss.com/)
 
@@ -40,6 +42,10 @@ It is using [Tailwindcss](https://tailwindcss.com/)
 - [ReactNative](https://reactnative.dev/)
 - [Ionic](https://ionicframework.com/)
 
+#### Other
+
+- [Python](https://www.python.org)
+
 ### Backend
 
 For the backend it uses APIs, it covers a set of technologies / frameworks:
@@ -49,7 +55,6 @@ For the backend it uses APIs, it covers a set of technologies / frameworks:
 - [API Platform](https://api-platform.com/) which is built over [Symfony](https://symfony.com/) or [Laravel](https://laravel.com)
 
 For [Spring Boot](https://spring.io/projects/spring-boot) and [API Platform](https://api-platform.com/), I will use [Docker](https://www.docker.com/)
-
 
 ### Database
 
@@ -76,13 +81,13 @@ I use [Docker](https://www.docker.com/) to instantiate it.
 
 ## The application
 
-For this demo, I decided to create an application that... 
+For this demo, I decided to create an application that...
 
 - School Management? (Administrators, Teacher, Parent, Student, Classes[[Grade]A..[Grade]Z], Grades[1st-nth], Subjects, Lesson, Exam, Assignment, Result, Event, Announcement, Messages, Attendance)
 - Travel App?
-- E-Commerce? 
-- Food ordering? 
-- Doctor Appointment? 
+- E-Commerce?
+- Food ordering?
+- Doctor Appointment?
 - House Rental Management?
 
 ### Features
