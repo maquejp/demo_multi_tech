@@ -59,12 +59,12 @@ It use [Docker](https://www.docker.com/) to instantiate it.
 
 For this demo, I decided to create an application that...
 
-- School Management? (Administrators, Teacher, Parent, Student, Classes[[Grade]A..[Grade]Z], Grades[1st-nth], Subjects, Lesson, Exam, Assignment, Result, Event, Announcement, Messages, Attendance)
+- School Management? (Administrators, Teacher, Parent, Student, Classes[[Grade]A..[Grade]Z], Grades[1st-nth], Subjects, Lesson, Exam, Assignment, Result, Event, Announcement, Messages, Attendance, Dashboard)
 - Travel App?
 - E-Commerce?
 - Food ordering?
 - Doctor Appointment?
-- House Rental Management?
+- House Rental Management? (Administrators, Owners, Clients, Properties, Dashboard)
 
 ### Features
 
