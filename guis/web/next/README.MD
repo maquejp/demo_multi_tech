@@ -1,4 +1,8 @@
-# React
+# NextJs / React
+
+[https://nextjs.org/](https://nextjs.org/)
+
+Which is [React](https://react.dev/)
 
 ## Prerequisites
 
@@ -14,4 +18,4 @@ Version (at the time of creating the application with the cli): 15.1.4
 
 ## Styling
 
-It is using [Tailwindcss](https://tailwindcss.com/) [With Angular](https://tailwindcss.com/docs/guides/angular)
+It is using [Tailwindcss](https://tailwindcss.com/) [With NextJs](https://tailwindcss.com/docs/guides/nextjs)
