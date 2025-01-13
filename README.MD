@@ -44,12 +44,6 @@ For the database, it covers a set of technologies:
 - [MariaDB](./databases/mariadb/README.MD)
 - [Oracle Database](./databases/oracle/README.MD)
 
-### SMTP Server
-
-- [MailDev](https://maildev.github.io/maildev/)
-
-It use [Docker](https://www.docker.com/) to instantiate it.
-
 ### Supporting services for this project
 
 - [Clerk](https://clerk.com) (for managing authentication)
@@ -59,16 +53,18 @@ It use [Docker](https://www.docker.com/) to instantiate it.
 
 For this demo, I decided to create an application that...
 
-- School Management? (Administrators, Teacher, Parent, Student, Classes[[Grade]A..[Grade]Z], Grades[1st-nth], Subjects, Lesson, Exam, Assignment, Result, Event, Announcement, Messages, Attendance, Dashboard)
-- Travel App?
-- E-Commerce?
-- Food ordering?
-- Doctor Appointment?
-- House Rental Management? (Administrators, Owners, Clients, Properties, Dashboard)
+- School Management? (Administrators, Schools, Teacher, Parent, Student, Classes[[Grade]A..[Grade]Z], Grades[1st-nth], Subjects, Lesson, Exam, Assignment, Result, Event, Announcement, Messages, Attendance)
+- Travel App? (Administrators, Agencies, Clients, Destinations)
+- E-Commerce? (Administrators, Shops, Clients, Marchandises)
+- Food ordering? (Administrators, Marchants, Clients, Food)
+- Doctor Appointment? (Administrators, Doctors, Specialities, Patients, Appointments)
+- House Rental Management? (Administrators, Owners, Clients, Properties)
 
 ### Features
 
-The applicaton has the following features:
+The applicaton has the following features.
+
+General features:
 
 - Public Homepage
 - Authentication for restricted features
@@ -77,3 +73,9 @@ The applicaton has the following features:
 - CRUD on specific features
 - Data Exports
 - Internal Messaging System
+
+Specific features:
+
+- A
+- B
+- C
