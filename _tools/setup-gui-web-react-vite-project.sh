@@ -9,6 +9,15 @@ fi
 
 PROJECT_NAME=$1
 
+if [ -d "../guis/web/reactjs/vite" ]; then
+  cd "../guis/web/reactjs/vite"
+else
+  echo "Directory does not exist, creating it..."
+  mkdir -p "../guis/web/reactjs/vite"
+  cd "../guis/web/reactjs/vite"
+fi
+
+
 # Execute the commands with the provided project name
 echo "Creating new Vite project: $PROJECT_NAME"
 bun create vite@latest $PROJECT_NAME --template react-ts
