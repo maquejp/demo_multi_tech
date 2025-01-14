@@ -1,0 +1,11 @@
+services:
+  mongo:
+    image: mongodb/mongodb-community-server:latest
+    container_name: demo-multi-tech-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data/db
+    environment:
+      - MONGODB_INITDB_ROOT_USERNAME=mongoadmin
+      - MONGODB_INITDB_ROOT_PASSWORD=a-nice-admin-password
