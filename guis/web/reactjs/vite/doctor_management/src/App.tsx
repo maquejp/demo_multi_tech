@@ -9,8 +9,7 @@ function App() {
   return (
     <>
       <div>
-    <h1 className="text-3xl font-bold underline">Doctor Appointment</h1>
-    <h1 className="text-3xl font-bold underline">Doctor Appointment</h1>
+    <h1 className="text-3xl font-bold underline">doctor_management</h1>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
