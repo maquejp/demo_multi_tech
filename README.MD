@@ -14,7 +14,7 @@ For the frontend, it covers as set of javascript frameworks for [Single-page app
 
 - [Angular](https://angular.dev/)
 - [Astro](https://astro.build/)
-- [NextJs](https://nextjs.org/)
+- [React](https://react.dev/)
 - [Svelte](https://svelte.dev/)
 - [VueJs](https://vuejs.org/)
 

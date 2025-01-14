@@ -20,4 +20,4 @@ Version (at the time of creating the application with the cli): 15.1.4
 
 ## Styling
 
-It is using [Tailwindcss](https://tailwindcss.com/) [With NextJs](https://tailwindcss.com/docs/guides/nextjs)
+It is using [Tailwindcss](https://tailwindcss.com/) [With Vite](https://tailwindcss.com/docs/guides/vite)
