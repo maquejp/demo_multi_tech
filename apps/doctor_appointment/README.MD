@@ -45,3 +45,10 @@ A doctor appointment platform.
 - Check their appointments with patients
 - Check their earnings
 - Check their patients (Patients have/had appointments with)
+
+# Implementation
+
+- GUI
+  - WEB
+    - REACTJS
+      - VITE
