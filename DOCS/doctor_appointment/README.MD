@@ -52,3 +52,10 @@ A doctor appointment platform.
   - WEB
     - REACTJS
       - VITE
+
+
+# Screens - Ideas
+
+## Home page
+
+![wf](./images/Homepage.png "Wireframe")
