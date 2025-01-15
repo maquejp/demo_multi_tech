@@ -46,16 +46,17 @@ A doctor appointment platform.
 - Check their earnings
 - Check their patients (Patients have/had appointments with)
 
+# Screens - Ideas
+
+## Home page
+
+![wf](./images/Homepage.png "Wireframe")
+
 # Implementation
 
 - GUI
   - WEB
     - REACTJS
       - VITE
-
-
-# Screens - Ideas
-
-## Home page
-
-![wf](./images/Homepage.png "Wireframe")
+- DATABASES
+  - MONGODB
