@@ -50,7 +50,39 @@ A doctor appointment platform.
 
 ## Home page
 
-![wf](./images/Homepage.png "Wireframe")
+![wf](./images/Home.png "Wireframe")
+
+## About us page
+
+![au](./images/AboutUs.png "AboutUs")
+
+## Contact us page
+
+![cu](./images/ContactUs.png "AboutUs")
+
+## Docs list page
+
+![dl](./images/DocsList.png "DocList")
+
+## Doc details with availability page
+
+![dd](./images/DocDetails.png "DocList")
+
+## Login page
+
+![l](./images/Login.png "login")
+
+## Create account page
+
+![ca](./images/CreateAccount.png "create")
+
+## User profile page
+
+![up](./images/MyProfile.png "profile")
+
+## User appointments page
+
+![uap](./images/MyAppointments.png "appoint")
 
 # Implementation
 
