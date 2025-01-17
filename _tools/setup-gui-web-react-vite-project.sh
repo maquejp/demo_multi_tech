@@ -31,6 +31,10 @@ if [ $? -ne 0 ]; then
 fi
 
 if [ -d "$PROJECT_NAME" ]; then
+
+  # Format PROJECT_NAME: replace underscores with spaces and capitalize each word
+  FORMATTED_PROJECT_NAME=$(echo "$PROJECT_NAME" | sed 's/_/ /g' | awk '{for (i=1; i<=NF; i++) $i=toupper(substr($i,1,1)) substr($i,2)}1')
+
   cd "$PROJECT_NAME"
   echo "Setting up project..."
 
@@ -50,7 +54,10 @@ if [ -d "$PROJECT_NAME" ]; then
   sed -i '/content: \[\]/c\  content: [\n    "./index.html",\n    "./src/**/*.{js,ts,jsx,tsx}",\n  ],' tailwind.config.js
 
   echo "Updating App.tsx..."
-  sed -i "/<div>/a \ \ \ \ <h1 className=\"text-3xl font-bold underline\">$PROJECT_NAME</h1>" src/App.tsx
+  sed -i "/<div>/a \ \ \ \ <h1 className=\"text-3xl font-bold underline\">$FORMATTED_PROJECT_NAME</h1>" src/App.tsx
+
+  echo "Updating index.html..."
+  sed -i "s|<title>.*</title>|<title>$FORMATTED_PROJECT_NAME</title>|" index.html
 
   echo "Starting development server..."
   bun run dev
