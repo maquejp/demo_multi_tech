@@ -48,6 +48,8 @@ A doctor appointment platform.
 
 # Screens - Ideas
 
+Those are just mockups / ideas made in [Figma](https://www.figma.com/)
+
 ## Home page
 
 ![wf](./images/Home.png "Wireframe")
@@ -83,6 +85,18 @@ A doctor appointment platform.
 ## User appointments page
 
 ![uap](./images/MyAppointments.png "appoint")
+
+## Admin - Dashboard
+
+![ad](./images/AdminDashboard.png "dashb")
+
+## Admin - Add doc
+
+![adoc](./images/AdminAddDoc.png "adddoc")
+
+## Admin - Check appointments
+
+![aliap](./images/AdminAppointments.png "listapp")
 
 # Implementation
 
