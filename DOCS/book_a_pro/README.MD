@@ -1,20 +1,20 @@
-# Doctor Appointment
+# Book a pro
 
-A doctor appointment platform.
+A professional appointment platform.
 
 ## Sections
 
 - Home
-  - List of specialities (quick link to list of all doctors for selected specialities)
-  - List of all doctors by specialities
-  - Top 5 doctors list (with most appointments) 
+  - List of specialities (quick link to list of all professionals for selected specialities)
+  - List of all professionals by specialities
+  - Top 5 professionals list (with most appointments)
 - About the app
-- Contact the app owner or a doctor
+- Contact the app owner or a professionals
 - Header
   - Logo
   - Navigation
     - Home
-    - All doctors
+    - All professionals
     - About
     - Contact
   - Create account (if not authenticated) / Update account (if authenticated)
@@ -23,28 +23,28 @@ A doctor appointment platform.
 ## Roles
 
 - Administrators
-- Doctors
-- Patients
+- professionals
+- clients
 
 ### Administrators
 
-- Create and update physician (doctors)
+- Create and update physician (professionals)
 - Create and update specialities (e.g. General physician, gynecologist, dematologirst, peratricians, neurologist, gatroenterologist...)
 
-### Patients
+### clients
 
 - Create a new account (self registration)
 - Update their profiles
 - Requests appointments
-- Check teir doctors (Doctors have/had appointments with)
+- Check teir professionals (professionals have/had appointments with)
 - Online payment
 
-### Doctors / Physicians
+### Professionals
 
-- Update their profiles- 
-- Check their appointments with patients
+- Update their profiles
+- Check their appointments with clients
 - Check their earnings
-- Check their patients (Patients have/had appointments with)
+- Check their clients (clients have/had appointments with)
 
 # Screens - Ideas
 
@@ -62,13 +62,13 @@ Those are just mockups / ideas made in [Figma](https://www.figma.com/)
 
 ![cu](./images/ContactUs.png "AboutUs")
 
-## Docs list page
+## Pros list page
 
-![dl](./images/DocsList.png "DocList")
+![dl](./images/ProsList.png "List")
 
-## Doc details with availability page
+## Pro details with availability page
 
-![dd](./images/DocDetails.png "DocList")
+![dd](./images/ProDetails.png "Details")
 
 ## Login page
 
@@ -90,9 +90,9 @@ Those are just mockups / ideas made in [Figma](https://www.figma.com/)
 
 ![ad](./images/AdminDashboard.png "dashb")
 
-## Admin - Add doc
+## Admin - Add professionals
 
-![adoc](./images/AdminAddDoc.png "adddoc")
+![adpro](./images/AdminAddPro.png "add")
 
 ## Admin - Check appointments
 
