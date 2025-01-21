@@ -54,9 +54,9 @@ The database instances are common for all applications.
 
 ## The applications
 
-- [Book a pro](./apps/book_a_pro/README.MD)
-- [School Management](./apps/school_mng/README.MD)
-- [Travel App](./apps/travel/README.MD)
-- [E-Commerce](./apps/e_commerce/README.MD)
+- [Book a pro](./DOCS/book_a_pro/README.MD)
+- [School Management](./DOCS/school_mng/README.MD)
+- [Travel App](./apps/DOCS/README.MD)
+- [E-Commerce](./DOCS/e_commerce/README.MD)
 - [Food ordering](./apps/food_ordering/README.MD)
-- [House Rental Management](./apps/house_rental/README.MD)
+- [House Rental Management](./DOCS/house_rental/README.MD)

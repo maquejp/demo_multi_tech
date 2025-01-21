@@ -100,6 +100,11 @@ Those are just mockups / ideas made in [Figma](https://www.figma.com/)
 
 # Implementation
 
+```sh
+cd ../../_tools
+bun run setup:guis:web:reactjs:vite book_a_pro
+```
+
 - GUI
   - WEB
     - REACTJS
