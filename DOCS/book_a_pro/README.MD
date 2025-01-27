@@ -28,8 +28,8 @@ A professional appointment platform.
 
 ### Administrators
 
-- Create and update physician (professionals)
-- Create and update specialities (e.g. General physician, gynecologist, dematologirst, peratricians, neurologist, gatroenterologist...)
+- Create and update professionals
+- Create and update specialities (e.g. Architect, Plumber, General physician...)
 
 ### clients
 
