@@ -6,6 +6,16 @@ I have started this project in January 2025... And it will takes time to covers 
 
 ## Technologies covered
 
+## Design
+
+### Sreens
+
+[Figma](https://figma.com)
+
+### Database Schema (Relationals)
+
+[DBDiagram](https://dbdiagram.io/) ou [Diagrams / Draw.io](https://app.diagrams.net/)
+
 ### UIs
 
 #### Frontend Web
