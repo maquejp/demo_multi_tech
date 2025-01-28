@@ -103,8 +103,8 @@ Those are just mockups / ideas made in [Figma](https://www.figma.com/)
 ## Entities
 
 - Users
-- User types (administrators, professional, client)
-- Professions (tailor, plumber, physician...)
+- User roles (administrators, professional, client)
+- Specialities (tailor, plumber, physician...)
 - Appointments
 
 # Implementation
