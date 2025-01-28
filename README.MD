@@ -14,7 +14,7 @@ I have started this project in January 2025... And it will takes time to covers 
 
 ### Database Schema (Relationals)
 
-[DBDiagram](https://dbdiagram.io/) or [Diagrams / Draw.io](https://app.diagrams.net/)
+[DBDiagram](https://dbdiagram.io/) and [DBDocs](https://dbdocs.io/)
 
 ### UIs
 
