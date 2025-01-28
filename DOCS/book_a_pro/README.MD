@@ -98,6 +98,15 @@ Those are just mockups / ideas made in [Figma](https://www.figma.com/)
 
 ![aliap](./images/AdminAppointments.png "listapp")
 
+# Data structure
+
+## Entities
+
+- Users
+- User types (administrators, professional, client)
+- Professions (tailor, plumber, physician...)
+- Appointments
+
 # Implementation
 
 ```sh
