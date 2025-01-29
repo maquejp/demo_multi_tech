@@ -107,6 +107,8 @@ Those are just mockups / ideas made in [Figma](https://www.figma.com/)
 - Specialities (tailor, plumber, physician...)
 - Appointments
 
+![dbschema](./images/book_a_pro_schema.png "dbschema")
+
 # Implementation
 
 ```sh
