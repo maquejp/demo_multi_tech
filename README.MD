@@ -8,7 +8,11 @@ I have started this project in January 2025... And it will takes time to covers 
 
 ## Design
 
-### Sreens
+### Tailwind oklch
+
+[https://oklch.com/](https://oklch.com/)
+
+### Screens
 
 [Figma](https://figma.com)
 
