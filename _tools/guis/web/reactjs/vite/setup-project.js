@@ -46,32 +46,42 @@ execSync(`bun install`, { stdio: "inherit" });
 
 // Initialize Tailwind CSS
 console.log(`Installing Tailwind CSS for "${PROJECT_NAME}"`);
-execSync(`bun install -d tailwindcss postcss autoprefixer`, {
+execSync(`bun install -d tailwindcss @tailwindcss/vite`, {
   stdio: "inherit",
 });
 
-console.log(`Initializing Tailwind CSS for "${PROJECT_NAME}"`);
-execSync(`bunx tailwindcss init -p`, { stdio: "inherit" });
-
 console.log("Configuring Tailwind CSS...");
-const indexCssPath = path.join(PROJECT_PATH, "src", "index.css");
-// Read the current content of the file
-const currentContent = fs.readFileSync(indexCssPath, "utf-8");
-// Prepend the new content to the existing content
-const newContent =
-  "@tailwind base;\n@tailwind components;\n@tailwind utilities;\n" +
-  currentContent;
-// Write the new content back to the file
-fs.writeFileSync(indexCssPath, newContent, "utf-8");
+const viteConfigPath = path.join(PROJECT_PATH, "vite.config.ts"); // Change to .js if needed
 
-const tailwindConfigPath = path.join(PROJECT_PATH, "tailwind.config.js");
-const tailwindConfigContent = fs
-  .readFileSync(tailwindConfigPath, "utf-8")
-  .replace(
-    /content: \[\]/,
-    `content: [\n    "./index.html",\n    "./src/**/*.{js,ts,jsx,tsx}",\n  ]`
+// Read the existing Vite config file
+let viteConfigContent = fs.readFileSync(viteConfigPath, "utf-8");
+
+let modified = false;
+
+// Check if the import for Tailwind is already there
+if (!viteConfigContent.includes("import tailwindcss from '@tailwindcss/vite'")) {
+  console.log("Adding Tailwind CSS import...");
+  viteConfigContent = `import tailwindcss from '@tailwindcss/vite';\n` + viteConfigContent;
+  modified = true;
+}
+
+// Check if Tailwind is already in the plugins array
+if (!viteConfigContent.includes("tailwindcss()")) {
+  console.log("Adding Tailwind CSS to Vite plugins...");
+  viteConfigContent = viteConfigContent.replace(
+    /plugins:\s*\[\s*react\(\)\s*\]/,
+    "plugins: [react(), tailwindcss()]"
   );
-fs.writeFileSync(tailwindConfigPath, tailwindConfigContent);
+  modified = true;
+}
+
+// Save the modified file if changes were made
+if (modified) {
+  fs.writeFileSync(viteConfigPath, viteConfigContent, "utf-8");
+  console.log("✅ Tailwind CSS has been added to vite.config.ts");
+} else {
+  console.log("⚡ Tailwind CSS is already present in vite.config.ts");
+}
 
 // Format the project name for display
 const FORMATTED_PROJECT_NAME = PROJECT_NAME.replace(/_/g, " ").replace(
@@ -85,7 +95,7 @@ const appTsxContent = fs
   .readFileSync(appTsxPath, "utf-8")
   .replace(
     /<div>/,
-    `<div>\n    <h1 className="text-3xl font-bold underline">${FORMATTED_PROJECT_NAME}</h1>`
+    `<div>\n    <h1 className="text-3xl font-bold underline">${FORMATTED_PROJECT_NAME}</h1>\n\n`
   );
 fs.writeFileSync(appTsxPath, appTsxContent);
 
