@@ -4,7 +4,8 @@
   "description": "A cross-platform script to set up Vite React projects with Tailwind CSS",
   "main": "setup-gui-web-react-vite-project.js",
   "scripts": {
-    "setup:guis:web:reactjs:vite": "bun run ./guis/web/reactjs/vite/setup-project.js"
+    "setup:guis:web:reactjs:vite": "bun run ./guis/web/reactjs/vite/setup-project.js",
+    "setup:guis:web:angular": "bun run ./guis/web/angular/setup-project.js"
   },
   "dependencies": {},
   "devDependencies": {}
